@@ -1,0 +1,67 @@
+{
+  "title": "Pine脚本(TradingView)练习手册",
+  "description": "Pine脚本(TradingView)练习手册",
+  "language": "zh",
+  "plugins": [
+    "livere",
+    "disqus",
+    "github",
+    "github-buttons",
+    "splitter",
+    "sitemap",
+    "donate",
+    "insert-head-tag",
+    "baidu-v3",
+    "-livereload"
+  ],
+  "pluginsConfig": {
+    "livere": {
+      "uid": "MTAyMC8zNTIyNC8xMTc2MA=="
+    },
+    "disqus": {
+      "shortName": "aistock-ga"
+    },
+    "github": {
+      "url": "https://github.com/zlq4863947/pinescript-skill-manual"
+    },
+    "github-buttons": {
+      "buttons": [
+        {
+          "user": "zlq4863947",
+          "repo": "pinescript-skill-manual",
+          "type": "star",
+          "size": "small",
+          "count": true
+        },
+        {
+          "user": "zlq4863947",
+          "repo": "pinescript-skill-manual",
+          "type": "fork",
+          "size": "small",
+          "count": true
+        }
+      ]
+    },
+    "donate": {
+      "wechat": "https://aitrade.ga/books/tradingview/images/weixin.png",
+      "alipay": "https://aitrade.ga/books/tradingview/images/alipay.png",
+      "button": "赏",
+      "alipayText": "支付宝打赏",
+      "wechatText": "微信打赏"
+    },
+    "sitemap": {
+      "hostname": "http://aitrade.ga"
+    },
+    "insert-head-tag": {
+      "tags": [
+        "<script async src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'>",
+        "<script>(adsbygoogle = window.adsbygoogle || []).push({google_ad_client: 'ca-pub-4774215405699477',enable_page_level_ads: true});",
+        "<script async src='https://www.googletagmanager.com/gtag/js?id=UA-155388696-3'>",
+        "<script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);console.log('gtag')}gtag('js', new Date());gtag('config', 'UA-155388696-3');"
+      ]
+    },
+    "baidu": {
+      "token": "7589b987dc4ef611f2f1cd192b55a257"
+    }
+  }
+}
