@@ -64,15 +64,15 @@ magreKline(pH, pL, cH, cL) =>
     // 趋势向上
     if trend == 'up'
         // 新K线_高 = 最大值(前K_高, 现K_高)
-        newkH = max(pH, cH)
+        newkH := max(pH, cH)
         // 新K线_低 = 最大值(前K_低, 现K_低)
-        newkL = max(pL, cL)
+        newkL := max(pL, cL)
     // 趋势向上
     else if trend == 'dow'
         // 新K线_高 = 最小值(前K_高, 现K_高)
-        newkH = min(pH, cH)
+        newkH := min(pH, cH)
         // 新K线_低 = 最小值(前K_低, 现K_低)
-        newkL = min(pL, cL)
+        newkL := min(pL, cL)
 
     [newkH, newkL]
 ```
