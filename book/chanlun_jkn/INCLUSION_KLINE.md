@@ -8,9 +8,9 @@
 
 ![](/images/jkn/include_01.png)
 
-#### 包含关系
+- 包含关系
 
-** 包含关系 = (前K_高 >= 现K_高 and 前K_低 <= 现K_低) or (前K_高 <= 现K_高 and 前K_低 >= 现K_低) **
+**包含关系 = (前K_高 >= 现K_高 and 前K_低 <= 现K_低) or (前K_高 <= 现K_高 and 前K_低 >= 现K_低)**
 
 - PineScript:
 
@@ -30,15 +30,17 @@ isIncludeKline(pH, pL, cH, cL) =>
 
 ![](/images/jkn/include_02.png)
 
-** 新K线_高 = 最大值(前K_高, 现K_高)**
-** 新K线_低 = 最大值(前K_低, 现K_低)**
+**新K线_高 = 最大值(前K_高, 现K_高)**
+
+**新K线_低 = 最大值(前K_低, 现K_低)**
 
 - 趋势向下
 
 ![](/images/jkn/include_03.png)
 
-** 新K线_高 = 最小值(前K_高, 现K_高)**
-** 新K线_低 = 最小值(前K_低, 现K_低)**
+**新K线_高 = 最小值(前K_高, 现K_高)**
+
+**新K线_低 = 最小值(前K_低, 现K_低)**
 
 - PineScript:
 
@@ -74,3 +76,8 @@ magreKline(pH, pL, cH, cL) =>
 
     [newkH, newkL]
 ```
+
+
+## 下一章
+
+- [1-3、查找分型](Find_Pattern.md)
