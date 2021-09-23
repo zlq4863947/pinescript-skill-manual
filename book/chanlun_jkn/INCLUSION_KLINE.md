@@ -6,7 +6,7 @@
 
 一根K线**完全**处于另一根K线范围内。
 
-![](/images/jkn_01.png)
+![](/images/jkn/include_01.png)
 
 #### 包含关系
 
@@ -28,14 +28,14 @@ isIncludeKline(pH, pL, cH, cL) =>
 
 - 趋势向上
 
-![](/images/jkn_02.png)
+![](/images/jkn/include_02.png)
 
 ** 新K线_高 = 最大值(前K_高, 现K_高)**
 ** 新K线_低 = 最大值(前K_低, 现K_低)**
 
 - 趋势向下
 
-![](/images/jkn_03.png)
+![](/images/jkn/include_03.png)
 
 ** 新K线_高 = 最小值(前K_高, 现K_高)**
 ** 新K线_低 = 最小值(前K_低, 现K_低)**
